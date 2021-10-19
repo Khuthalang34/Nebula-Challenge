@@ -7,3 +7,7 @@ Employee managing any amount of Events. Normalizing the ERD diagram would be an 
 
 Question 2
 
+CREATE VIEW [Tickets] AS
+SELECT Genre
+FROM Movies
+WHERE Month = "December"
