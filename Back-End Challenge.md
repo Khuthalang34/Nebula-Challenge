@@ -60,7 +60,7 @@ public class Animal {
      }
     }
     
-    publc class sheep: Animal{
+    public class sheep: Animal{
      public override string  MakeNoise(){
        return "Baah";
      }
