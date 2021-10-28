@@ -2,7 +2,7 @@ Question 1
 
 
 public static string checkMultiple(string word){
-  int length = 8;
+  int length = word.Length;
   
   if (length % 2 == 0 && % 4 == 0)
     return "stack overflow";
