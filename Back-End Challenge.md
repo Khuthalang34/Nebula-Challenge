@@ -6,8 +6,8 @@ class Program{
   
     //console.ReadLine to get a users input and store it in a variable to use in the checkMultiple function
     
-    string word = console.ReadLine ("Enter word");
-    console.WriteLine (checkMultiple(word));
+    string word = Console.ReadLine ("Enter word");
+    Console.WriteLine (checkMultiple(word));
     }
     
   public static string checkMultiple(string word){
