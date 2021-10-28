@@ -34,14 +34,14 @@ class Program{
  class Program {
     public static void Main (string[] args) {
         Horse horse = new Horse();
-        console.WriteLine (horse.Eat());
-        console.WriteLine (horse.MakeNoise());
+        Console.WriteLine (horse.Eat());
+        Console.WriteLine (horse.MakeNoise());
         
-        console.WriteLine ("============================================");
+        Console.WriteLine ("============================================");
         
         Sheep sheep = new Sheep();
-        console.WriteLine (sheep.Eat());
-        console.WriteLine (sheep.MakeNoise());
+        Console.WriteLine (sheep.Eat());
+        Console.WriteLine (sheep.MakeNoise());
   }
 }
 
@@ -56,13 +56,13 @@ public class Animal {
     }
     public  class Horse : Animal {
      public override string MakeNoise(){
-       return "Neigh"
+       return "Neigh";
      }
     }
     
-    publc class sheep:Sheep:Animal{
+    publc class sheep: Animal{
      public override string  MakeNoise(){
-       return "Baah"
+       return "Baah";
      }
     }
         
