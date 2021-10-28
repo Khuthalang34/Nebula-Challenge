@@ -1,11 +1,17 @@
 Question 1
 
-
-public static string checkMultiple(string word){
-  int length = word.Length;
+using System;
+class Program{
+  public static void Main (string[] args) {
+    string word = console.ReadLine ("Enter word");
+    console.WriteLine (checkMultiple(word));
+    }
+    
+  public static string checkMultiple(string word){
+    int length = word.Length;
   
-  if (length % 2 == 0 && % 4 == 0)
-    return "stack overflow";
+    if (length % 2 == 0 && % 4 == 0)
+     return "stack overflow";
       if (length % 2 == 0)
         return "stack";
       if (length % 4 == 0)
@@ -13,6 +19,7 @@ public static string checkMultiple(string word){
         
   return "not stack or overflow";
  }
+}
  
  
  
