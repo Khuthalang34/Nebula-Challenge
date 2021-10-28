@@ -3,6 +3,9 @@ Question 1
 using System;
 class Program{
   public static void Main (string[] args) {
+  
+    //console.ReadLine to get a users input and store it in a variable to use in the checkMultiple function
+    
     string word = console.ReadLine ("Enter word");
     console.WriteLine (checkMultiple(word));
     }
