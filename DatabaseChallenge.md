@@ -10,4 +10,4 @@ Question 2
 CREATE VIEW [Tickets] AS
 SELECT Genre
 FROM Movies
-WHERE Month = "December"
+WHERE Month = "December";
