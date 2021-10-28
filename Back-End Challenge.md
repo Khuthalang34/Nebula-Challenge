@@ -6,9 +6,9 @@ public static string checkMultiple(string word){
   
   if (length % 2 == 0 && % 4 == 0)
     return "stack overflow";
-      if (lenght % 2 == 0)
+      if (length % 2 == 0)
         return "stack";
-      if (lenght % 4 == 0)
+      if (length % 4 == 0)
         return "overflow";
         
   return "not stack or overflow";
